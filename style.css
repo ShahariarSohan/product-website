@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    
+    color:#FFF;
 }
 /* nav section */
 .nav-container{
@@ -58,8 +58,44 @@ span{
     border:5px ;
     background-color: red;
 }
+/* service section */
 .service-container{
-    background-image: url("asset/image/footer-bg.png");
+    height:600px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("asset/image/footer-bg.png"),linear-gradient(rgba(0 ,0 , 0 ,0.9),rgba(0 , 0 , 0 , 0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.service-info{
+    color:#FFF;
+}
+.service-icon{
+    display:flex;
+}
+.author-img{
+    width:70px;
+    height: 70px;
+    border-radius: 70px;
+    border:#000;
+}
+.icon{
+    width:70px;
+    height:70px;
+    margin:60px 0 0 80px;
+}
+
+.box{
+    
+    margin:10px;
+    background-color:aqua;
+    width:250px;
+    height:200px;
+    border:2px solid #000;
+    border-radius: 10px;
 }
     
    
