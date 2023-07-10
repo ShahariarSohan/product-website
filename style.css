@@ -56,6 +56,7 @@ span{
     width:120px;
     height:40px;
     border:5px ;
+    border-radius: 3px;
     background-color: red;
 }
 
@@ -71,7 +72,7 @@ span{
     background-size: cover;
 
 }
-/* sevice info */
+/* service info */
 h2{
     font-size:30px;
 }
@@ -117,14 +118,21 @@ h3{
 /* call section */
 .call-container{
     margin:auto;
-    margin-top:-30px;
+    margin-top:-40px;
     width:80%;
     height:150px;
-    background-color: aqua;
-    opacity:0.6;
-    border:1px ;
+    border:1px;
     border-radius: 10px;
+    background-color: rgba(0,0,255,0.8);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
    
 }
+.phonecall-img{
+    width:70px;
+    height:70px;
+}
+
     
    
