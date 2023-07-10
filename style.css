@@ -32,6 +32,25 @@ ul li:hover{
     background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    text-align:center;
+    
+   
+}
+.banner-info{
+    margin-left:300px;
+    
+}
+span{
+    color:red;
+}
+.title-primary{
+    font-size: 60px;
+    color:#FFF;
+}
+.paragraph-primary{
+    
 }
     
    
