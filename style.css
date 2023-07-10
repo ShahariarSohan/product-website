@@ -3,6 +3,7 @@
     padding:0;
     color:#FFF;
 }
+
 /* nav section */
 .nav-container{
     background-color: gray;
@@ -57,6 +58,7 @@ span{
     border:5px ;
     background-color: red;
 }
+
 /* service section */
 .service-container{
     height:600px;
@@ -69,6 +71,7 @@ span{
     background-size: cover;
 
 }
+/* sevice info */
 h2{
     font-size:30px;
 }
@@ -90,6 +93,7 @@ h2{
 #btn-service{
     margin-left:30px;
 }
+/* service icon */
 .icon{
     width:70px;
     height:70px;
@@ -109,6 +113,18 @@ h2{
 }
 h3{
     color:#000;
+}
+/* call section */
+.call-container{
+    margin:auto;
+    margin-top:-30px;
+    width:80%;
+    height:150px;
+    background-color: aqua;
+    opacity:0.6;
+    border:1px ;
+    border-radius: 10px;
+   
 }
     
    
