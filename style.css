@@ -28,8 +28,10 @@ ul li:hover{
 /* banner section */
 .banner-container{
     height:100vh;
-    background-image: url("asset/image/background.jpg");
+    background-image: url("asset/image/background.jpg"),linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, .3));
+    background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(172, 165, 165, 0.2),rgba(184, 180, 180, 0.2));
 }
+    
+   
